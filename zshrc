@@ -70,8 +70,8 @@ fi
 ################################################
 # This is a placeholder to source my alias file
 ################################################
-if [[ -r ~/.aliasrc ]]; then
-   . ~/.aliasrc
+if [[ -r ~/.dotfiles/aliasrc ]]; then
+   . ~/.dotfiles/aliasrc
 fi
 
 # completion
