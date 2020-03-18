@@ -1,0 +1,29 @@
+#echo "Source aliasrc"
+
+alias sau="sudo apt update"
+alias sauu="sudo apt update && sudo apt upgrade -y"
+
+alias la="ls -a"
+alias ls="ls -lA"
+alias src="source ~/.zshrc"
+alias reload="source ~/.zshrc"
+alias vim="nvim"
+alias tan="tldr"
+
+alias zsh_config="nvim ~/.dotfiles/zshrc"
+alias vim_config="nvim ~/.dotfiles/vimrc"
+alias tmux_config="nvim ~/.dotfiles/tmux.conf"
+alias alacritty_config="nvim ~/.dotfiles/alacritty.yml"
+alias nvim_config="nvim ~/.dotfiles/init.vim"
+alias alias_config="nvim ~/.dotfiles/aliasrc"
+alias conda_config="nvim ~/.condarc"
+
+alias ipy="ipython"
+alias jlab="jupyter lab &"
+alias cd_themes="~/.oh-my-zsh/themes/"
+
+alias conda_update="conda update conda"
+alias condaa="conda activate"
+alias condad="conda deactivate"
+alias condaels="conda-env list"
+alias condainfo="conda info"
