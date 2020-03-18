@@ -57,6 +57,6 @@ alias gpu="git push -u"
 
 # More git aliases
 gclone="git clone"
-gretchen="git fetch"
+gfetch="git fetch"
 gcpick="git cherry-pick"
 
