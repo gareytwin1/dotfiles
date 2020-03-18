@@ -6,14 +6,12 @@ export PATH=$HOME/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/miniconda/bin
 export PATH=$PATH:$HOME/.cargo/bin
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:$HOME/.local/v   
+export PATH=$PATH:/usr/local/go/bin 
 export PATH=$PATH:$HOME/.nimble/bin
 export PATH=$PATH:/snap/bin
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin
 export PATH=$PATH:/usr/bin:/usr/sbin
 export PATH=$PATH:/sbin:/bin
-#export PATH=$PATH:/usr/local/octave/bin
 ##############################################################
 # Basic config
 ##############################################################
