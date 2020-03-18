@@ -56,7 +56,7 @@ alias grv="git remote -v"
 alias gpu="git push -u"
 
 # More git aliases
-clone="git clone"
-fetch="git fetch"
-cherry_pick="git cherry-pick"
+gclone="git clone"
+gretchen="git fetch"
+gcpick="git cherry-pick"
 
