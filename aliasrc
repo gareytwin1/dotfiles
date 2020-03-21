@@ -32,7 +32,6 @@ alias chrome="google-chrome-stable"
 alias ipy="ipython"
 alias jpy="jupyter notebook"
 alias jlab="jupyter lab"
-alias nvsight="nv-nsight-cu-cli"
 
 alias cuc="conda update conda"
 alias ca="conda activate"
@@ -56,9 +55,3 @@ alias gra="git remote add"
 alias grr="git remote remove"
 alias grv="git remote -v"
 alias gpu="git push -u"
-
-# More git aliases
-gclone="git clone"
-gfetch="git fetch"
-gcpick="git cherry-pick"
-
