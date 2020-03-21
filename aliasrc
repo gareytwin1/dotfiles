@@ -31,6 +31,7 @@ alias git_config="nvim ~/.git_config"
 alias ipy="ipython"
 alias jpy="jupyter notebook"
 alias jlab="jupyter lab"
+alias nvsight="nv-nsight-cu-cli"
 
 alias cuc="conda update conda"
 alias ca="conda activate"
