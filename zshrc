@@ -6,22 +6,15 @@ export PATH=$HOME/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/miniconda/bin
 export PATH=$PATH:$HOME/.cargo/bin
-<<<<<<< HEAD
-export PATH=$PATH:/usr/local/go/bin 
-=======
 export PATH=$PATH:$HOME/.local/v
->>>>>>> zsh-branch
 export PATH=$PATH:$HOME/.nimble/bin
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/snap/bin
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin
 export PATH=$PATH:/usr/bin:/usr/sbin
 export PATH=$PATH:/sbin:/bin
-<<<<<<< HEAD
-=======
 export PATH=$PATH:/usr/local/cuda-10.2/bin
 export PATH=$PATH:/usr/local/cuda-10.2/NsightCompute-2019.1
->>>>>>> zsh-branch
 ##############################################################
 # Basic config
 ##############################################################
@@ -32,6 +25,8 @@ export TMPDIR=$HOME/.local/tmp
 export TERM=xterm-256color
 export GOPATH=$HOME/go
 export OCTAVE_EXECUTABLE=/usr/bin/octave-cli
+export LANG=en_US.UTF-8
+export ARCHFLAGS="-arch x86_64"
 ##############################################################
 # Oh-my-zsh config
 ##############################################################
@@ -40,7 +35,6 @@ HIST_STAMPS="mm/dd/yyyy"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="mm/dd/yyyy"
-
 ##############################################################
 # oh-my-zsh plugins
 ##############################################################
@@ -62,10 +56,6 @@ fpath+=${ZDOTDIR:-~}/.zsh_functions
 source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export LANG=en_US.UTF-8
-
-# Compilation flags
-export ARCHFLAGS="-arch x86_64"
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -73,7 +63,6 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   export EDITOR='vim'
 fi
-
 ################################################
 # This is a placeholder to source my alias file
 ################################################

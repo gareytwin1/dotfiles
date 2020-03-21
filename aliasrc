@@ -28,6 +28,7 @@ alias conda_config="nvim ~/.condarc"
 alias ssh_config="nvim ~/.ssh/config"
 alias git_config="nvim ~/.git_config"
 
+alias chrome="google-chrome-stable"
 alias ipy="ipython"
 alias jpy="jupyter notebook"
 alias jlab="jupyter lab"
