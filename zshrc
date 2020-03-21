@@ -6,12 +6,22 @@ export PATH=$HOME/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/miniconda/bin
 export PATH=$PATH:$HOME/.cargo/bin
+<<<<<<< HEAD
 export PATH=$PATH:/usr/local/go/bin 
+=======
+export PATH=$PATH:$HOME/.local/v
+>>>>>>> zsh-branch
 export PATH=$PATH:$HOME/.nimble/bin
+export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/snap/bin
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin
 export PATH=$PATH:/usr/bin:/usr/sbin
 export PATH=$PATH:/sbin:/bin
+<<<<<<< HEAD
+=======
+export PATH=$PATH:/usr/local/cuda-10.2/bin
+export PATH=$PATH:/usr/local/cuda-10.2/NsightCompute-2019.1
+>>>>>>> zsh-branch
 ##############################################################
 # Basic config
 ##############################################################
@@ -19,7 +29,7 @@ export IPYTHONDIR=$HOME/.ipython
 export ZSH=/home/garey/.oh-my-zsh
 export EDITOR=/usr/bin/nvim
 export TMPDIR=$HOME/.local/tmp
-export TERM=xterm-256color 
+export TERM=xterm-256color
 export GOPATH=$HOME/go
 export OCTAVE_EXECUTABLE=/usr/bin/octave-cli
 ##############################################################
@@ -38,15 +48,14 @@ plugins=( autopep8
           colored-man-pages
           debian
           extract
-          git 
-          go 
-          golang 
+          go
+          golang
           nmap
           pip
-          python 
-          pylint 
-          tmux 
-          vi-mode 
+          python
+          pylint
+          tmux
+          vi-mode
         )
 
 fpath+=${ZDOTDIR:-~}/.zsh_functions
@@ -101,10 +110,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/garey/.sdkman"
-[[ -s "/home/garey/.sdkman/bin/sdkman-init.sh" ]] && source "/home/garey/.sdkman/bin/sdkman-init.sh"
-
-
-export GPG_TTY=$(tty)
