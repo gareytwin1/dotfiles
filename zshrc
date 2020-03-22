@@ -27,6 +27,7 @@ export GOPATH=$HOME/go
 export OCTAVE_EXECUTABLE=/usr/bin/octave-cli
 export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
+export CONDA_ROOT=/home/garey/miniconda
 ##############################################################
 # Oh-my-zsh config
 ##############################################################
@@ -66,9 +67,7 @@ fi
 ################################################
 # This is a placeholder to source my alias file
 ################################################
-if [[ -r ~/.dotfiles/aliasrc ]]; then
-   . ~/.dotfiles/aliasrc
-fi
+[[ -r ~/.dotfiles/aliasrc ]] && source /home/garey/.dotfiles/aliasrc
 
 # completion
 autoload -U compinit
