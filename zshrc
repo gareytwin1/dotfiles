@@ -2,19 +2,10 @@
 # Garey Salinas .zshrc file
 # Export path
 ##############################################################
-export PATH=$HOME/bin
-export PATH=$PATH:$HOME/.local/bin
-export PATH=$PATH:$HOME/miniconda/bin
-export PATH=$PATH:$HOME/.cargo/bin
-export PATH=$PATH:$HOME/.local/v
-export PATH=$PATH:$HOME/.nimble/bin
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/snap/bin
+export PATH=$HOME/.local/bin
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin
 export PATH=$PATH:/usr/bin:/usr/sbin
 export PATH=$PATH:/sbin:/bin
-export PATH=$PATH:/usr/local/cuda-10.2/bin
-export PATH=$PATH:/usr/local/cuda-10.2/NsightCompute-2019.1
 ##############################################################
 # Basic config
 ##############################################################
@@ -23,11 +14,9 @@ export ZSH=/home/garey/.oh-my-zsh
 export EDITOR=/usr/bin/nvim
 export TMPDIR=$HOME/.local/tmp
 export TERM=xterm-256color
-export GOPATH=$HOME/go
 export OCTAVE_EXECUTABLE=/usr/bin/octave-cli
 export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
-export CONDA_ROOT=/home/garey/miniconda
 ##############################################################
 # Oh-my-zsh config
 ##############################################################
