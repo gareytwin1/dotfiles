@@ -54,7 +54,9 @@ Plug 'davidhalter/jedi-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tomasr/molokai'
+Plug 'JuliaEditorSupport/julia-vim'
 call plug#end()
+
 
 filetype plugin indent on
 let g:deoplete#enable_at_startup = 1
