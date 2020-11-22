@@ -41,8 +41,8 @@ if !filereadable(vimplug_exists)
 endif
 
 call plug#begin(expand('~/.config/nvim/plugged'))
-Plug 'Shougo/deoplete.nvim',{'do': ':UpdateRemotePlugins'}
-Plug 'Shougo/deoplete.nvim'
+" Plug 'Shougo/deoplete.nvim',{'do': ':UpdateRemotePlugins'}
+" Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'Shougo/dein.vim'
