@@ -21,6 +21,7 @@ export TERM=xterm-256color
 export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
 export NVM_DIR="$HOME/.nvm"
+export GPG_TTY=$(tty)
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 ##############################################################
@@ -82,4 +83,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
